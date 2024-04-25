@@ -1,9 +1,11 @@
-using Infrastructure;
+using Microsoft.AspNetCore.Components.Infrastructure;
 using Application;
-using Infastructure.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
+using Persistence.Data;
+using Application;
+using Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;

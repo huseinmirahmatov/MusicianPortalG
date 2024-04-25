@@ -1,11 +1,12 @@
-﻿using Application.Common;
-using Domain.Interfaces.Repositories;
+﻿
 using Persistence.Data;
 using Infrastructure.Data;
 using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Application.Common;
+using Domain.Interfaces.Repositories;
 
 namespace Infrastructure;
 
